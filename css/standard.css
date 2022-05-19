@@ -53,9 +53,25 @@ html, body {
 
 .contact_info li{
     display: inline-block;
-    margin: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .phys_address {
     text-align: center;
+}
+
+.phys_address li{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.phys_address li strong {
+    text-decoration: underline;
 }
