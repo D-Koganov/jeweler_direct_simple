@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.underlined_text {
+    text-decoration: underline;
+}
+
+.center_alligned_text {
+    text-align: center;
+}
+
+.vertical_middle {
+    vertical-align: middle;
+}
+
+.vertical_top {
+    vertical-align: top;
+}
+
+.red_text {
+    color: red;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.logo_n_title {
+    text-align: center;
+}
+
+.logo_n_title h1 {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.logo_n_title img {
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact_info {
+    text-align: center;
+}
+
+.contact_info li{
+    display: inline-block;
+    margin: 1%;
+}
+
+.phys_address {
+    text-align: center;
+}
